@@ -14,7 +14,7 @@ const Login = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    if (email === "Yman@gmail.com" && password === "Yman2005") {
+    if (email === "Ymanbek@gmail.com" && password === "Ymanbek2005") {
       dispatch(
         loginSuccess({
           id: "1",
