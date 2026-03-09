@@ -13,6 +13,7 @@ function App() {
         path="/login"
         element={!isAuthenticated ? <LoginPage /> : <Navigate to="/board" />}
       />
+
       <Route
         path="/board"
         element={isAuthenticated ? <BoardPage /> : <Navigate to="/login" />}

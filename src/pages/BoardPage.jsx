@@ -108,7 +108,6 @@ const BoardPage = () => {
           <LogoutButton onClick={handleLogout}>Выйти</LogoutButton>
         </UserMenu>
       </Header>
-
       <DndContext
         sensors={sensors}
         collisionDetection={closestCenter}
